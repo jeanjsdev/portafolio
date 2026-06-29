@@ -19,6 +19,16 @@ export default function Footer() {
           © {new Date().getFullYear()} Jean Oropeza. Todos los derechos reservados.
         </p>
         <VisitCounter />
+        <a
+  href="/CV-Jean-Oropeza.pdf"
+  download
+  className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white font-medium px-6 py-3 rounded-lg text-sm sm:text-base transition-all duration-300 hover:scale-105 hover:shadow-lg"
+>
+  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+  </svg>
+  Descargar CV
+</a>
         <div className="flex items-center gap-5">
           <a
             href="https://wa.me/34642850020?text=Hola%20Jean%2C%20vi%20tu%20portafolio%20y%20me%20gustar%C3%ADa%20contactarte"
@@ -29,6 +39,7 @@ export default function Footer() {
           >
             <FaWhatsapp size={22} />
           </a>
+          
           <a
             href="https://www.linkedin.com/in/jeanjsdev"
             target="_blank"

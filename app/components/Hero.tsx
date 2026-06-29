@@ -25,6 +25,13 @@ export default function Hero() {
 
         <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center mt-8">
           <a
+  href="/CV-Jean-Oropeza.pdf"
+  download
+  className="bg-green-600 hover:bg-green-700 text-white font-medium px-6 py-3 rounded-lg text-sm sm:text-base transition-colors"
+>
+  📄 Descargar CV
+</a>
+          <a
             href="#projects"
             className="bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-lg text-sm sm:text-base transition-colors"
           >
