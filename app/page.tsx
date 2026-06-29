@@ -28,7 +28,7 @@ export default function Home() {
         <Projects />
       </ScrollReveal>
       
-      {/* <Testimonials /> */} // ← COMENTADO
+      {/* <Testimonials /> ← COMENTADO */}  
       
       <ScrollReveal delay={200} threshold={0.2}>
         <Contact />

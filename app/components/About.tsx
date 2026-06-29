@@ -18,7 +18,7 @@ export default function About() {
             <div className="space-y-4 text-gray-300 text-sm sm:text-base leading-relaxed">
               <p>
                 Soy <span className="font-semibold text-white">Jean Oropeza</span>, 
-                Full Stack Developer con más de 5 años de experiencia 
+                Full Stack Developer con más de 10 años de experiencia 
                 transformando ideas en soluciones digitales funcionales y escalables.
               </p>
               <p>
